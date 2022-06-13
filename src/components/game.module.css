@@ -1,0 +1,50 @@
+.section {
+    background-color: rgb(243, 146, 239, 0.4);
+    width: 75%;
+    margin: 0 auto;
+    padding: 2rem;
+    border: .3rem solid #f392ef;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    position: absolute;
+    bottom: 10%;
+    left: 12%;
+
+    visibility: hidden;
+}
+
+.h2 {
+    font-weight: bold;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+}
+
+.p {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+.pGood {
+    color: #63A642;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    padding: .5rem 0 .5rem 0;
+}
+
+.pGood:hover {
+    color: #a64263;
+}

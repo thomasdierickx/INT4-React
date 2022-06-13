@@ -1,0 +1,47 @@
+.header {
+    background-color: #d32323;
+    margin-top: -2rem;
+}
+
+.h2 {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.outline {
+    border-bottom: .02rem solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .7rem;
+    font-size: .8rem;
+    padding-bottom: .3rem;
+    padding-top: .3rem;
+}
+
+.outlineItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 1.5rem;
+    padding-left: 1rem;
+}
+
+.outlineNoBorder{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .7rem;
+    font-size: .8rem;
+    padding-bottom: .3rem;
+    padding-top: .3rem;
+}
+
+.outlineItemText {
+    font-size: .9rem;
+}
